@@ -6,10 +6,12 @@ function Logo(props) {
       <div>
         <h1>Welcome to {props.appName}</h1>
         <img
+          onClick={props.clickHandler}
           src={
-            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/016.png"
+            "https://static.pokemonpets.com/images/monsters-images-300-300/7-Squirtle.webp"
           }
           alt={"a pokemon"}
+          width="200px"
         />
       </div>
     </header>
